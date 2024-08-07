@@ -4,6 +4,22 @@
 
 The Virtual Event Management System is a web application built with React (or Next.js) that allows users to organize, manage, and participate in virtual events. The application includes features such as user authentication, event creation, event management, and participation tracking.
 
+## Screenshots
+
+### User
+#### Dashboard
+![Dashboard](visuals/ss/UserDashboard.png)
+#### SignUp
+![SignUp](visuals/ss/SignUp.png)
+#### User Dashboard MyEvent
+![User Dashboard MyEvent](visuals/ss/UserDashboardMyEvent.png)
+
+### Admin
+#### Dashboard
+![Page](visuals/ss/AdminDashboard.png)
+#### Add Event
+![Add Event](visuals/ss/AdminAddEvent.png)
+
 ## Technologies Used
 
 - **Next.js**: A React framework that enables server-side rendering and static site generation for building modern web applications.
