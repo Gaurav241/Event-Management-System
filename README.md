@@ -15,6 +15,51 @@ The Virtual Event Management System is a web application built with React (or Ne
 - **Material Icons**: A library of icons from Google that provides a consistent and modern look for user interfaces.
 - **Bootstrap**: A popular CSS framework for responsive design and modern UI components, facilitating the creation of mobile-first and accessible web applications.
 
+## Installation
+
+### Prerequisites
+
+- Node.js and npm installed
+- MongoDB installed and running
+
+### Clone the Repository
+
+Run the following command to clone the repository:
+```
+git clone https://github.com/yourusername/virtual-event-management-system.git
+cd virtual-event-management-system
+```
+### Install Dependencies
+
+Install the necessary dependencies with:
+```
+npm install
+```
+### Configure Environment Variables
+
+1. Copy `.env.example` to `.env`:
+```
+cp .env.example .env
+```
+2. Edit the `.env` file to include your MongoDB connection string and JWT secret. Update the following variables:
+```
+TOKEN_SECRET=your_token
+MONGO_URL=mongodb_database_address
+```
+3. Generate a secure token secret using the following command and set it in the `.env` file:
+```
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+```
+4. Replace `your_token` with the generated token and `mongodb_database_address` with your MongoDB connection string.
+
+### Start the Development Server
+
+Start the server with:
+```
+npm run dev
+```
+The application will be running on `http://localhost:3000`.
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any changes or enhancements. Your feedback and contributions help improve the project!
