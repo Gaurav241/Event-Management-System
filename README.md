@@ -67,3 +67,7 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## Contact
 
 For any questions or inquiries, please contact [gaurav.govinda2420@gmail.com](mailto:gaurav.govinda2420@gmail.com).
+
+## License
+
+Distributed under the MIT License. See [LICENSE](LICENSE.txt) for more information.
