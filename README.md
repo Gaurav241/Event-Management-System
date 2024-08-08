@@ -1,4 +1,4 @@
-# Virtual Event Management System
+# Event Management System
 
 ## Table of Contents
 
@@ -54,8 +54,8 @@ The Virtual Event Management System is a web application built with React (or Ne
 
 Run the following command to clone the repository:
 ```
-git clone https://github.com/yourusername/virtual-event-management-system.git
-cd virtual-event-management-system
+git clone https://github.com/Gaurav241/Event-Management-System.git
+cd Event-Management-System
 ```
 ### Install Dependencies
 
