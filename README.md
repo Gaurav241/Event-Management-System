@@ -1,5 +1,8 @@
 # Event Management System
 
+![CI Status](https://img.shields.io/github/actions/workflow/status/Gaurav241/Event-Management-System/ci.yaml?branch=master)
+![Production](https://img.shields.io/github/deployments/Gaurav241/Event-Management-System/production)
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
